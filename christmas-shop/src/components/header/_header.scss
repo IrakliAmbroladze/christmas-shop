@@ -4,6 +4,24 @@
   height: 64px;
   background-color: yellow;
 
+  .logo {
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    img {
+      display: block
+    }
+
+    .text {
+      text-transform: uppercase;
+    }
+  }
+
   .container {
     width: 100%;
     height: 100%;
