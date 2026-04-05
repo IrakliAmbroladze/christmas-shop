@@ -3,8 +3,11 @@ use leptos::prelude::*;
 #[component]
 pub fn Header() -> impl IntoView {
     view! {
-        <header>
-            <nav>"Hello header!"</nav>
+        <header class="header">
+            <div class="container">
+                <img src="/assets/icons/snowflake.svg" alt="logo" />
+                <nav>"Hello header!"</nav>
+            </div>
         </header>
     }
 }
