@@ -1,3 +1,5 @@
+@use '../../scss/variables' as *;
+
 .header {
   height: 64px;
   background-color: yellow;
@@ -9,5 +11,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .burger-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+
+    .burger-menu {
+      height: 8px;
+      width: 20px;
+      margin: auto;
+      border-top: 1px solid $dark;
+      border-bottom: 1px solid $dark;
+    }
   }
 }

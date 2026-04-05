@@ -6,7 +6,9 @@ pub fn Header() -> impl IntoView {
         <header class="header">
             <div class="container">
                 <img src="/assets/icons/snowflake.svg" alt="logo" />
-                <nav>"Hello header!"</nav>
+                <div class="burger-container">
+                    <div class="burger-menu"></div>
+                </div>
             </div>
         </header>
     }
