@@ -3,4 +3,10 @@
     list-style-type: none;
     display: flex;
   }
+
+  .nav-item {
+    padding: 12px 20px;
+    user-select: none;
+    cursor: pointer;
+  }
 }
