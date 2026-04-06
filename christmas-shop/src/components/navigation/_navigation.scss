@@ -1,0 +1,27 @@
+@use "../../scss/variables" as *;
+@use '../../scss/mixins' as *;
+
+.navigation {
+  .nav-items {
+    list-style-type: none;
+    display: none;
+  }
+
+  @include respond-to(lg) {
+    .nav-items {
+      display: flex;
+    }
+  }
+
+  .nav-item {
+    border-radius: 12px;
+    padding: 12px 20px;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary-color;
+      background-color: rgba($primary-color, 0.1);
+    }
+  }
+}

@@ -4,23 +4,25 @@
 
 .header {
   height: 64px;
-  background-color: yellow;
 
   .logo {
-    width: 140px;
-    height: 40px;
-    background-color: green;
+    padding: 8px 20px;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 10px;
 
     img {
-      display: block
+      display: block;
+      width: 24px;
+      height: 24px;
     }
 
     .text {
       text-transform: uppercase;
+      user-select: none;
+      white-space: nowrap;
     }
   }
 

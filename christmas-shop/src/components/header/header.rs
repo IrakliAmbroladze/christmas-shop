@@ -1,3 +1,4 @@
+use crate::components::navigation::Navigation;
 use leptos::prelude::*;
 
 #[component]
@@ -9,9 +10,7 @@ pub fn Header() -> impl IntoView {
                     <img src="/assets/icons/snowflake.svg" alt="logo" />
                     <p class="text">the gifts</p>
                 </div>
-                <div class="burger-container">
-                    <div class="burger-menu"></div>
-                </div>
+                <Navigation />
             </div>
         </header>
     }
